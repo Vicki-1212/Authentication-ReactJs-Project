@@ -1,0 +1,118 @@
+/* Write your CSS code here */
+.app-conntainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .app-conntainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+
+.sm-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 45%;
+  }
+}
+
+.home-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+    text-align: left;
+  }
+}
+
+.home-sm-image {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-sm-image {
+    display: none;
+  }
+}
+
+.home-paragraph {
+  font-size: 16px;
+  color: #64748b;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .home-paragraph {
+    font-size: 18px;
+    text-align: left;
+  }
+}
+
+.home-button {
+  width: 80%;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-size: 16px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-button {
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+
+.home-lg-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-lg-image {
+    display: flex;
+    width: 40%;
+  }
+}

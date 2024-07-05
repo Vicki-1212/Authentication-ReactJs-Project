@@ -1,0 +1,138 @@
+.login-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo-image-sm {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-image-sm {
+    display: none;
+  }
+}
+
+.login-image {
+  width: 65%;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-image {
+    width: 50%;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo-image-lg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-image-lg {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 35%;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 5px;
+  }
+}
+
+.lg-logo-container {
+  text-align: center;
+}
+
+.label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 13px;
+  }
+}
+
+.input-text {
+  height: 40px;
+  background-color: #e6f6ff;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-text {
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.error-msg {
+  color:#ff0b37;
+  font-size:16px;
+  font-family:"Roboto";
+}
